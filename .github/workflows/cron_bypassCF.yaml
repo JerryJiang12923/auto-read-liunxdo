@@ -19,6 +19,7 @@ jobs:
       USERNAMES: ${{ secrets.USERNAMES }}
       PASSWORDS: ${{ secrets.PASSWORDS }}
       WEBSITE: ${{ secrets.WEBSITE }}
+      AUTO_LIKE: ${{ secrets.AUTO_LIKE }}
       RUN_TIME_LIMIT_MINUTES: ${{ secrets.RUN_TIME_LIMIT_MINUTES }}
       MAX_CONCURRENT_ACCOUNTS: ${{ secrets.MAX_CONCURRENT_ACCOUNTS }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
